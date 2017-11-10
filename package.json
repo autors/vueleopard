@@ -1,6 +1,6 @@
 {
   "name": "vue-admin-template",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "license": "MIT",
   "description": "A vue admin template with iview",
   "author": "WangTing <niyuelin1990@163.com>",
@@ -18,7 +18,8 @@
     "iview": "^2.5.1",
     "vue": "2.4.2",
     "vue-router": "2.7.0",
-    "vuex": "2.3.1"
+    "vuex": "2.3.1",
+    "screenfull": "3.2.2"
   },
   "devDependencies": {
     "autoprefixer": "6.7.2",

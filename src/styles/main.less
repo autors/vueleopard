@@ -1,13 +1,19 @@
+@import '~iview/src/styles/index.less';
+@primary-color          : #2db7f5;
 html,body{
     width: 100%;
     height: 100%;
     background: #f0f0f0;
     overflow: hidden;
 }
+.app-main{
+  width: 100%;
+  height: 100%;
+}
 .lock-screen-back{
     border-radius: 50%;
     z-index: -1;
-    box-shadow: 0 0 0 0 #667aa6 inset;
+    box-shadow: 0 0 0 0 @primary-color inset;
     position: fixed;
     left: 50%;
     top: 50%;
@@ -129,7 +135,7 @@ html,body{
             right: 0;
             top: 0;
             height: 100%;
-            width: 300px;
+            width: 180px;
             .switch-theme-con{
                 display: inline-block;
                 width: 40px;
@@ -158,11 +164,11 @@ html,body{
                     position: absolute;
                     right: 0;
                     top: 0;
-                    width: 150px;
+                    width: 125px;
                     height: 100%;
                     .main-user-name{
                         display: inline-block;
-                        width: 80px;
+                        width: 50px;
                         word-break: keep-all;
                         white-space: nowrap;
                         vertical-align: middle;
@@ -173,7 +179,7 @@ html,body{
                 }
                 &-innercon{
                     height: 100%;
-                    padding-right: 14px;
+                    padding-right: 10px;
                 }
             }
             .full-screen-btn-con{

@@ -1,29 +1,24 @@
-import { getToken } from '@/utils/auth'
+import util from '@/utils/util.js';
 
 const user = {
   state: {
-    token: getToken(),
-    name: '',
-    avatar: '',
-    roles: []
+   userInfo:util.getUser(),
   },
 
   mutations: {
-    SET_TOKEN: (state, token) => {
-      state.token = token
+    setUserInfo(state, userInfo){
+      state.userInfo = userInfo;
     },
-    SET_NAME: (state, name) => {
-      state.name = name
-    },
-    SET_AVATAR: (state, avatar) => {
-      state.avatar = avatar
-    },
-    SET_ROLES: (state, roles) => {
-      state.roles = roles
+    set_logOut(state){
+      state.userInfo = null;
+      util.removeUser();
     }
   },
 
   actions: {
+    LogOut({commit}){
+      commit('set_logOut');
+    }
   }
 }
 

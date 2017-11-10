@@ -4456,6 +4456,10 @@ sax@~1.2.1:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
+screenfull@3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/screenfull/-/screenfull-3.2.2.tgz#ddd0c2c66a799640a566d95672d79abac4d627aa"
+
 "semver@2 || 3 || 4 || 5", semver@5.3.0, semver@^5.1.0, semver@^5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
