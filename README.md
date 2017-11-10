@@ -79,14 +79,9 @@ server {
 
 
 ## Display
-- login
-![](readme_static/login.png)
 
 - home
 ![](readme_static/main.png)
-
-- info
-![](readme_static/info.png)
 
 
 ## License
