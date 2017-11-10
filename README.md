@@ -2,10 +2,13 @@
 ## Version：v0.5
 
 ## Introduction
+```
 a simple 'vue iview webpack' admin template
 simple build
 simple develop
 simple change
+simple give you
+```
 
 ## Install
 ```bush
@@ -24,7 +27,7 @@ npm run dev
 npm run build
 ```
 
-### build nginx configuration ,and access:http://127.0.0.1
+### build nginx configuration ,and access: http://127.0.0.1
 ```
 server {
         listen 80  default_server;
