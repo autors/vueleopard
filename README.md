@@ -1,4 +1,4 @@
-#lepoard vue iview admin
+#lepoard vue iview admin https://autors.github.io/vueleopard
 ## Version：v0.5
 
 ## Introduction
@@ -22,7 +22,7 @@ npm install
 ```bush
 npm run dev
 ```
-### Production(Build)
+### Production(Build) ,and access:http://localhost:9528
 ```bush
 npm run build
 ```
@@ -83,7 +83,6 @@ server {
 
 - home
 ![](readme_static/main.png)
-
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
