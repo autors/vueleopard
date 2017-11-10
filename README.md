@@ -75,6 +75,7 @@ server {
         ├── dashboard  用户自己展示界面
         ├── layout    模板框架
         └── login     登录
+ └── static   引入第三方目录
 ```
 
 
