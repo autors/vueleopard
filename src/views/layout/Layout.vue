@@ -52,7 +52,6 @@
         this.$store.dispatch('ChangeCurrentPathArr', pathArr);
         let tag = pathArr[pathArr.length-1]
         this.$store.commit('addPageOpened', tag);
-        console.log(name,tag)
       }
     },
     watch: {

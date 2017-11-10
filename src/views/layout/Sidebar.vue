@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="logo-con" :style="{background: menuTheme !== 'dark'?'#495060':''}">
-      <a href="/" v-show="!sidebar"> <img  src="../../assets/jahuar.png" class="maxlogo"/></a>
-      <a href="/" v-show="sidebar"><img  src="../../assets/leopard.png"/></a>
+      <a @click="herfchange" v-show="!sidebar"><img src="../../assets/jahuar.png" class="maxlogo"/></a>
+      <a @click="herfchange" v-show="sidebar"><img src="../../assets/leopard.png"/></a>
     </div>
     <Menu v-if="!sidebar" ref="sideMenu" :active-name="$route.path" :theme="menuTheme" :open-names="openedSubmenuArr"
           width="auto" @on-select="changeMenu">
@@ -90,6 +90,9 @@
     methods: {
       changeMenu(active){
         this.$router.push(active);
+      },
+      herfchange(){
+        this.$router.push("/");
       }
     }
   }

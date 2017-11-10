@@ -16,7 +16,6 @@ Vue.config.productionTip = false;
 const whiteList = ['/login'];
   router.beforeEach((to, from, next) => {
   NProgress.start(); // 开启Progress
-    console.log("userInfo111", store.getters.userInfo)
   if (store.getters.userInfo) {
     if (to.path === '/login') {
       next();

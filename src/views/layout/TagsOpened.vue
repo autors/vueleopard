@@ -45,7 +45,6 @@
     },
     methods: {
       handleTagsOption(e){
-        console.log(e, this.currentPageName)
         if (e === "clearAll") {
           this.$store.commit('clearAllPageTags');
           this.$router.push("/dashboard");
