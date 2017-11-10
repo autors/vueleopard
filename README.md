@@ -1,5 +1,11 @@
 #lepoard vue iview admin
-## 当前版本：v0.5
+## Version：v0.5
+
+## Introduction
+a simple 'vue iview webpack' admin template
+simple build
+simple develop
+simple change
 
 ## Install
 ```bush
@@ -17,7 +23,8 @@ npm run dev
 ```bush
 npm run build
 ```
-###build nginx configuration ,and access:http://127.0.0.1
+
+### build nginx configuration ,and access:http://127.0.0.1
 ```
 server {
         listen 80  default_server;
@@ -47,3 +54,39 @@ server {
 
   }
 ```
+
+
+## 文件结构
+```shell
+.
+├── dist    build 目录
+└── src
+      ├── api    http调用接口
+    ├── assets    图片文件
+      ├── components    组件
+    ├── router    路由表
+     ├── store    全局数据存储
+    ├── styles    样式文件
+      ├── utils     公共方法
+    └── views    视图组件
+        ├── dashboard  用户自己展示界面
+        ├── layout    模板框架
+        └── login     登录
+```
+
+
+## Display
+- login
+![](readme_static/login.png)
+
+- home
+![](readme_static/main.png)
+
+- info
+![](readme_static/info.png)
+
+
+## License
+[MIT](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2016-present, WANGTING
